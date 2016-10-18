@@ -1,0 +1,9 @@
+print('Enter the first number')
+the_first_number=int(input())  #the associated value to the first number
+print('Enter the second number')
+the_second_number=int(input())  #the associated value to the second number
+print('Enter the third number')
+the_third_number=int(input())  #the associated value to the third number
+#сalculate the sum of three numbers
+sum=the_first_number+the_second_number+the_third_number
+print(sum)
