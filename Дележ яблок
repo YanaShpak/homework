@@ -1,7 +1,0 @@
-#the program dividing between students of apples
-print('Enter the number of pupils')
-pupils=int(input())
-print('Enter the number apples')
-apples=int(input())
-print('The number of apples on the student', apples//pupils)
-print('The number of apples in a basket', apples%pupils)

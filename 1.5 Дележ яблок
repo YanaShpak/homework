@@ -1,0 +1,7 @@
+#the program dividing between students of apples
+print('Enter the number of students')
+students=int(input()) #assign the number of students
+print('Enter the number apples')
+apples=int(input()) #assign the number of apples
+print('The number of apples on the student', apples//students) #print the number of apples the students
+print('The number of apples in a basket', apples%students) #print the number of apples left in the basket
