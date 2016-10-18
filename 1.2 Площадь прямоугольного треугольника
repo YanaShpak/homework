@@ -1,3 +1,4 @@
+#the program outputs the square of a right triangle
 print('Enter the length of the first leg')
 the_first_leg = float(input())  #the value to assign to the first leg
 print('Enter the length of the second leg')
