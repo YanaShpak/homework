@@ -1,0 +1,7 @@
+print('Enter the length of the first leg')
+the_first_leg = float(input())  #the value to assign to the first leg
+print('Enter the length of the second leg')
+the_second_leg = float(input())  #the value to assign to the second leg
+#calculate the area of a right triangle
+square = (1/2)*the_first_leg*the_second_leg
+print(square) #print the value of the square
