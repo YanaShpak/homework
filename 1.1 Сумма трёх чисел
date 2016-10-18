@@ -1,3 +1,4 @@
+#the program outputs the sum of three numbers
 print('Enter the first number')
 the_first_number=int(input())  #the associated value to the first number
 print('Enter the second number')
