@@ -1,0 +1,4 @@
+print('Enter the name')
+name=input() #the value to assign to the first leg
+name_program=name+'!'  #assign a name to an exclamation point
+print('Hello,',name_program)  #derive the resulting string

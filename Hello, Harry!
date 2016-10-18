@@ -1,3 +1,0 @@
-name=input()
-name_program=name+'!'
-print('Hello,',name_program)
