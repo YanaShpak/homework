@@ -1,0 +1,12 @@
+print('Enter the value of the first coordinate on the first square of the chessboard')
+the_first_coordinate_on_the_first_cell_of_the_chessboard=int(input())  #the value of the first coordinate on the first cell of the chessboard
+print('Enter the value of the second coordinate on the first square of the chessboard')
+the_second_coordinate_on_the_first_cell_of_the_chessboard=int(input())  #the value of the second coordinates on the first cell of the chessboard
+print('Enter the value of the first coordinate to the second cell of the chessboard')
+the_first_coordinate_to_the_second_cell_of_the_chessboard=int(input())  #the value of the first coordinate to the second cell of the chessboard
+print('Enter the value of to second coordinate for the second cell of the chessboard')
+the_second_coordinate_to_the_second_cell_of_the_chessboard=int(input()) #the value of the second coordinates in the second cell of the chessboard
+if (the_first_coordinate_on_the_first_cell_of_the_chessboard-1)<=the_first_coordinate_to_the_second_cell_of_the_chessboard<=(the_first_coordinate_on_the_first_cell_of_the_chessboard+1) and (the_second_coordinate_on_the_first_cell_of_the_chessboard-1)<=the_second_coordinate_to_the_second_cell_of_the_chessboard<=(the_second_coordinate_on_the_first_cell_of_the_chessboard+1):
+    print('yes')
+else:
+    print('no')
