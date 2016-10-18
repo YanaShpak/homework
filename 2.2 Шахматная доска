@@ -1,0 +1,24 @@
+#Given two squares of the chessboard. If they are painted in one color, print the word YES, and if in different colors — NO. The program receives input four numbers from 1 to 8, each specifying the column number and line number first for the first cell, then second cell.
+print('Enter the value of the first coordinate on the first square of the chessboard')
+the_first_coordinate_on_the_first_cell_of_the_chessboard=int(input())  #the value of the first coordinate on the first cell of the chessboard
+print('Enter the value of the second coordinate on the first square of the chessboard')
+the_second_coordinate_on_the_first_cell_of_the_chessboard=int(input())  #the value of the second coordinates on the first cell of the chessboard
+print('Enter the value of the first coordinate to the second cell of the chessboard')
+the_first_coordinate_to_the_second_cell_of_the_chessboard=int(input())  #the value of the first coordinate to the second cell of the chessboard
+print('Enter the value of to second coordinate for the second cell of the chessboard')
+the_second_coordinate_to_the_second_cell_of_the_chessboard=int(input())  #the value of the second coordinates in the second cell of the chessboard
+#Check the coordinate value and the color assigned to the respective coordinates on the chess Board
+if the_first_coordinate_on_the_first_cell_of_the_chessboard%2==0 and the_second_coordinate_on_the_first_cell_of_the_chessboard%2==1:  
+    the_first_cell='black'   
+else:
+    the_first_cell='white'
+if the_first_coordinate_to_the_second_cell_of_the_chessboard%2==0 and the_second_coordinate_to_the_second_cell_of_the_chessboard%2==1:
+    the_second_cell='black'
+else:
+    the_second_cell='white'
+#Check whether the color of the cells
+#output "yes" if the color of the chess cage match and "no" if not the same
+if the_first_cell==the_second_cell:
+    print('yes')   
+else:
+    print('no')
