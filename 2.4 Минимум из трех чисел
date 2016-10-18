@@ -1,0 +1,13 @@
+#Given three integers. Print the smallest of them.
+print('Enter the first number')
+the_first_number=int(input()) #the value to assign to the first number
+print('Enter the second number')
+the_second_number=int(input()) #the value to assign to the second number
+print('Enter the third number')
+the_third_number=int(input()) #the value to assign to the third number
+if the_first_number<the_second_number and the_first_number<the_third_number:  #compare the first number with the other numbers
+    print('The smallest number is', the_first_number) 
+elif the_second_number<the_first_number and the_second_number<the_third_number:  #compare the second number with the other numbers
+    print('The smallest number is', the_second_number)
+else:
+    print('The smallest number is', the_third_number)
